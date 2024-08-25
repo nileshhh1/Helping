@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2em;
+}
+
+.story {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em;
+    width: 30%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100;
+}
